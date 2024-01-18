@@ -1,0 +1,260 @@
+/* Estilos de Index*/
+/*------------------------------------------------------------*/
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Roboto:wght@400;900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Roboto:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Header{
+    width: 100%;
+    height: 10vh;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Logo{
+    width: 210px;
+    height: 50px;
+    background-color: #000000;
+    opacity: 1;
+    color: #FFFFFF;
+    font: normal normal 900 32px/39px Lato;
+    display: flex;
+}
+.Cubo{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    background-color: #000000;
+}
+.cuboGame1{
+    width: 94%;
+    height: 44%;
+    margin: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    background-color: #000000;
+}
+.cuboGame{
+    width: 94%;
+    height: 44%;
+    margin: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #000000;
+}
+.miniCubo1{
+    width: 46%;
+    height: 96%;
+    margin: 2%;
+    background-color: #FFFFFF;
+}
+.miniCubo{
+    width: 46%;
+    height: 96%;
+    margin: 2%;
+    background-color: #FFFFFF;
+}
+.Lista{
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.Link{
+    font: normal normal 300 16px/20px Lato;
+    opacity: 1;
+    text-decoration: none;
+    color: #000000;
+}
+.Contenido{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.AgregarLista{
+    width: 1004px;
+    height: 471px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+}
+.CronoVenta{
+    width: 40%;
+    height: 80%;
+    margin: 5%;
+}
+.headerCronoventa{
+    font: normal normal 900 40px/48px Lato;
+    color: #707070;
+}
+.textoCronoVenta{
+    margin-top: 2%;
+    font: normal normal 300 20px/24px Lato;
+    color: #707070;
+}
+.botonCronoVenta{
+    width: 200px;
+    height: 30px;
+    background-color: #000000;
+    border-radius: 25px;
+    color: #FFFFFF;
+    font: normal normal bold 18px/24px Roboto;
+    margin-top: 5%;
+}
+.SeccionCaracteristicas{
+    width: 1004px;
+    height: 471px;
+    margin-top: 20px;
+    display: flex;
+}
+.Caracteristicas{
+    width: 595px;
+    height: 628px;
+    border-radius: 20px;
+    margin-right: 37px;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CaracteristicasPrincipales{
+    width: 78%;
+    height: 90%;
+    margin: 5%;
+}
+.headerCaracteristicas{
+    font: normal normal 900 24px/29px Lato;
+    color: #707070;
+}
+.textoCaracteristicas{
+    font: normal normal 300 16px/19px Lato;
+    color: #707070;
+    margin-top: 15px;
+
+}
+.ListaPlataformas{
+    width: 65%;
+    display: flex;
+    justify-content: space-around;
+}
+.Plataformas{
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+h6{
+    font: normal normal 100 12px/15px Lato;
+    margin: 5px 10px 5px 10px;
+    color: #707070;
+}
+.ColumnaAside{
+    width: 200px;
+    height: 628px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Aside{
+    width: 371px;
+    height: 196px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+}
+.Juegos{
+    width: 100%;
+    height: 433px;
+    margin-top: 15%;
+    background-color: #EFEFEF;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.headerJuegos{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.icon{
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+.headerTextoJuegos{
+    font: normal normal 900 24px/29px Lato;
+    color: #707070;
+}
+.textoJuegos{
+    font: normal normal 100 15px/19px Lato;
+}
+.sectionJuegos{
+    width: 80%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+.videojuego{
+    width: 30%;
+    height: 240px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.divJuego{
+    width: 94%;
+    height: 80%;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    margin: 3% 3% 0% 3%;
+}
+.headerVideojuego{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: end;
+}
+.footerVideojuego{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: end;
+}
+.textoVJuego{
+    font: normal normal 100 15px/19px Lato;
+    margin-left: 5%;
+}
+.Footer{
+    width: 100%;
+    height: 20vh;
+    background-color: #707070;
+    display: flex;
+    justify-content: space-around;
+}
+
+.divFooter{
+    width: 20%;
+    height: 90%;
+    margin: 2%;
+}
+.pFooter{
+    font: normal normal 300 12px/15px Lato;
+    margin: 5px;
+    color: #FFFFFF;
+}
+.divImages{
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+}
