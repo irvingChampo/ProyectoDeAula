@@ -179,6 +179,12 @@ h6{
     justify-content: center;
     flex-wrap: wrap;
 }
+.JuegosContainer{
+    width: 82%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 .headerJuegos{
     width: 80%;
     display: flex;
@@ -240,6 +246,12 @@ h6{
     height: 20vh;
     background-color: #707070;
     display: flex;
+    justify-content: center;
+}
+.FooterContainer{
+    width: 81%;
+    display: flex;
+    margin-left: 5%;
     justify-content: space-around;
 }
 
